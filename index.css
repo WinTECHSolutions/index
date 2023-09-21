@@ -11,7 +11,7 @@
 #header {
   background-image: url(img/bg.jpg);
   width: 100%;
-  height:90vh;
+  height:80vh;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -29,7 +29,7 @@
   width: 60px;
   position: absolute;
   top: 6px;
-  /* left: 120px; */
+  left: 8px;
   color: white;
 }
 .logo span {
@@ -69,7 +69,7 @@ nav li a:hover {
   width: 60%;
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* padding-bottom: 150px; */
@@ -155,7 +155,7 @@ nav li a:hover {
 }
 @media (max-width: 600px) {
   #header{
-    height: 70vh;
+    height: 80vh;
   }
   .nav {
     padding-top: 0px;
@@ -565,3 +565,9 @@ p{
   }
 }
 /* ================================================= */
+
+@media(max-width:600px){
+  .container h2{
+    font-size:30px;
+  }
+}
