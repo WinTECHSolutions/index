@@ -155,7 +155,7 @@ nav li a:hover {
 }
 @media (max-width: 600px) {
   #header{
-    height: 90vh;
+    height: 70vh;
   }
   .nav {
     padding-top: 0px;
